@@ -7,8 +7,8 @@ Warning lamps have (+12V) if you have to supply the pin with +12V to illuminate 
 |:-|:-:|:-:|
 | 1 | orange | fuel sender + |
 | 2 | white | fuel sender - |
-| 3 | red | [+12V, main power source of cluster][1] |
-| 4 | violet | [trip computer reset GND][2] |
+| 3 | red | +12V, main power source of cluster[1] |
+| 4 | violet | trip computer reset GND[2] |
 | 5 | |||
 | 6 | white-green | injection warning light (GND) |
 | 7 | brown | alternator warning light (GND) |
@@ -16,7 +16,7 @@ Warning lamps have (+12V) if you have to supply the pin with +12V to illuminate 
 | 9 |||
 | 10 | yellow | ignition switch +12V |
 
-* [1]: it's also a + pin for immobilizer LED.
+* [1]: it's also a +12V pin for immobilizer LED.
 * [2]: grounding this "trip computer reset" does the same thing as pressing the button on the cluster itself, it resets the trip odometer.
 
 ### Black plug
@@ -31,8 +31,8 @@ Warning lamps have (+12V) if you have to supply the pin with +12V to illuminate 
 | 6 | pink | connects to trip computer somehow, i don't know |
 | 7 | white | rev counter signal wire |
 | 8 | violet | speedometer signal wire |
-| 9 | gray-red | [oil level indicator][3] |
-| 10 | orange | [oil level indicator][3] |
+| 9 | gray-red | oil level indicator[3] |
+| 10 | orange | oil level indicator[3] |
 
 * [3]: in a real car the display which usually shows the odometer displays an oil level for a short time after starting an engine. The sensor is a variable resistor, perhaps connecting it to a resistor would show something when connecting power, but I haven't tested it.
 

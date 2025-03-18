@@ -21,7 +21,7 @@ When looking at the back of the cluster, the plugs (and their pins) are as follo
 |Grey|White|
 |10-1|10-1|
 
-All the pins are described on the [Pins.md] page.
+All the pins are described on the [pins](Pins.md) page.
 
 ### Necessary parts
 * Arduino (nano or uno is sufficient),
